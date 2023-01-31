@@ -13,6 +13,16 @@
     padding: 15px;
 }
 
-.cow:hover img {
-    transform: scale(3, 4);
+.cow img:hover {
+    transform-origin: top left;
+    transform: scale(2, 3);
+}
+
+.dre img:hover {
+    transform: scale(2.5, 3);
+}
+
+.flow img:hover {
+    transform-origin: top right;
+    transform: scale(2, 3);
 }
