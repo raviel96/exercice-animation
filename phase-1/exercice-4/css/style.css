@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid black;
+    margin: 10% auto;
+    width: 900px;
+    height: 400px;
+    padding: 15px;
+}
+
+.rose:hover img {
+    transform-origin: bottom left;
+    transform: scale(1.8, 1.1) translateY(100px);
+    opacity: 0.8;
+}
+
+.sea:hover img {
+    transform-origin: bottom left;
+    transform: scale(1.8, 1.1) translateY(100px);
+    opacity: 0.6;
+}
+
+.tab:hover img {
+    transform-origin: bottom left;
+    transform: scale(2, 1.2) translateY(100px);
+    opacity: 0.8;
+}

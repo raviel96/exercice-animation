@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid black;
+    margin: 10% auto;
+    width: 900px;
+    height: 400px;
+    padding: 15px;
+}
+
+.fly:hover img {
+    transform-origin: top left;
+    transform: rotate(120deg);
+}
+
+.gla:hover img {
+    transform-origin: center center;
+    transform: rotate(180deg);
+}
+
+.red:hover img {
+    transform-origin: bottom right;
+    transform: rotate(150deg);
+}
